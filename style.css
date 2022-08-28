@@ -1,0 +1,163 @@
+.container {
+	max-width: 1600px;
+	height: 700px;
+	background-image: url('/home.png');
+	object-fit: cover;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ancients-container {
+	flex: 0 0 40%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ancient-card {
+	cursor: pointer;
+	width: 230px;
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 297px;
+
+}
+
+.Azathoth {
+	background-image: url('/Ancients/Azathoth.png') ;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.Cthulthu {
+	background-image: url('/Ancients/Cthulthu.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.IogSothoth {
+	background-image: url('/Ancients/IogSothoth.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.ShubNiggurath {
+	background-image: url('/Ancients/ShubNiggurath.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.difficulty-container {
+	flex: 0 0 10%;
+	margin-left: 100px;
+	margin-top: 300px;
+	color: white;
+	
+}
+
+.difficulty-titel {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.difficulty {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid white;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.deck-shuffle{
+	flex: 0 0 10%;
+	margin-left: 100px;
+	margin-top: 400px;
+	color: white;
+	border: 1px solid white;
+	height: 20px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.deck-container {
+	flex: 0 0 40%;
+}
+
+.stage-text {
+	margin-left: 15px;
+}
+
+.deck-container {
+	margin-top: 20px;
+	margin-left: 50px;
+	color: purple;
+
+}
+
+
+.dots-container{
+	display: flex;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color:black;
+	align-items: center;
+	}
+
+.green {
+	background-color: green;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.brown {
+	background-color: brown;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blue {
+	background-color: blue;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.deck{
+	background-image: url('mythicCardBackground.png');
+	width:150px;
+	height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+.last-card{
+	background-image: none;
+	width:150px;
+	height: 220px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+.deck-shuffle-new {
+	display: none;
+	margin-top: 100px;
+}
